@@ -30,3 +30,29 @@ To start the Game, use the following command:
 ```powershell
 py D84_TextBasedTicTacToe\main.py
 ```
+
+## Day 85 - Image Watermark App
+
+The goal of day 85 included developing a desktop app which adds a water mark to one or multiple images.
+
+### Features
+
+- customizable watermark text and output directory
+
+### Usage  
+To start the application, use the following command:  
+
+```powershell
+# create a virtual environment
+py -m venv venv
+
+# activate the virtual environment
+.\venv\Scripts\activate
+
+# install requirements
+py -m pip install -r .\requirements.txt
+
+# start the program
+py .\main.py
+
+```
