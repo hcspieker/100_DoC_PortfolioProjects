@@ -56,3 +56,33 @@ py -m pip install -r .\requirements.txt
 py .\main.py
 
 ```
+
+## Day 86 - Speed Typing Test
+
+The task for today was to create a speed typing application using a Tkinter GUI.
+
+### Features
+
+- Execute a short 60 second speed typing test and prints the result
+  - Words per minute
+  - characters per minute
+  - including the number of errors, categorized into corrected typos and entered misspellings.
+- Has a Scoreboard, which displays the best 5 runs
+
+### Usage  
+To start the application, use the following command:  
+
+```powershell
+# create a virtual environment
+py -m venv venv
+
+# activate the virtual environment
+.\venv\Scripts\activate
+
+# install requirements
+py -m pip install -r .\requirements.txt
+
+# start the program
+py .\main.py
+
+```
